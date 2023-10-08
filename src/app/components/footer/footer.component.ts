@@ -5,9 +5,10 @@ import { CommonModule } from '@angular/common';
 @Component({
   standalone: true, 
   imports: [RouterLink, RouterOutlet, CommonModule],
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
 })
-export class HeaderComponent {
+export class FooterComponent {
+
 }
