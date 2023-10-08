@@ -1,1 +1,21 @@
-<p>header works!</p>
+<header>
+  <a [routerLink]="['/']">
+    <img id="Logo" src="../../../assets/img/logo.jpeg" alt="logo">        
+  </a>
+  <nav>
+    <ul>
+      <a [routerLink]="['/']">
+        <li>Home</li>
+      </a>
+      <a [routerLink]="['/contatos']">
+        <li>Contato</li>
+      </a>
+      <a [routerLink]="['/fotos']">
+        <li>Fotos</li>
+      </a>
+      <a [routerLink]="['/comentarios']">
+        <li>Comentários</li>
+      </a>                     
+    </ul>
+  </nav>
+</header>
