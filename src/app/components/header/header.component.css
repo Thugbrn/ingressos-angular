@@ -6,42 +6,16 @@ header {
   background-color: black;
 }
 
-nav {
-  width: 60%;
-  
-}
-
-ul {
-  display: flex;
-  width: 95%;
-  justify-content: space-between;
-}
-
-li {
-  list-style: none;
-  color: aliceblue;
-  cursor: pointer;
-  font-size: 19px;
-  transition: .5s;
-  font-family: 'kdam Thmor Pro', sans-serif;
-}
-
-li:hover {
-  color: #d21617; 
-}
-
 #logo {
   width: 150px;
   height: auto;
 }
 
+app-nav{width: 60%;}
+
 @media(max-width: 768px){
   .footer-navigation {
     display: block;
     margin-left: 22%;
-  }
-  
-  nav {
-    display: none;
   }
 }
