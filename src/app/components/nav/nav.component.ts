@@ -20,7 +20,7 @@ export class NavComponent {
         texto: "Home"
       },
       {
-        rota: "/contatos",
+        rota: "/contato",
         texto: "Contato"
       },
       {
