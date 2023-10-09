@@ -21,7 +21,7 @@ export class NavComponent {
       },
       {
         rota: "/contatos",
-        texto: "Contatos"
+        texto: "Contato"
       },
       {
         rota: "/fotos",
