@@ -1,5 +1,5 @@
 <ul>
-  <a [routerLink]="['{{ link.rota }}']" *ngFor="let link of linksNavegacao">
-    <li>{{ link.texto }}</li>
-  </a>
+  <li *ngFor="let link of linksNavegacao">
+    <a [routerLink]="link.rota">{{ link.texto }}</a>
+  </li>
 </ul>

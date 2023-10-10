@@ -8,7 +8,7 @@ ul {
   justify-content: space-between;
 }
 
-li {
+a {
   list-style: none;
   color: aliceblue;
   cursor: pointer;
@@ -17,7 +17,7 @@ li {
   font-family: 'kdam Thmor Pro', sans-serif;
 }
 
-li:hover {
+a:hover {
   color: #d21617;
 }
 
