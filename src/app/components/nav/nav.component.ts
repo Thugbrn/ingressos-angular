@@ -10,6 +10,7 @@ import { LinksMenu } from 'src/app/links-menu';
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
+
 export class NavComponent {
   linksNavegacao: LinksMenu[];
 
