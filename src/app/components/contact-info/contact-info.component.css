@@ -1,0 +1,52 @@
+.contact, 
+.content,
+.container,
+.contactInfo,
+.box,
+.contactForm form,
+.contactForm h2,
+.inputBox,
+.inputBox span{
+  background-color: initial;
+}
+
+.container .contactInfo {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.icon span {
+  background-color: initial;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: #d21617;
+}

@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { SectionContatoComponent } from './components/section-contato/section-contato.component';
+import { ContactInfoComponent } from './components/contact-info/contact-info.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { SectionContatoComponent } from './components/section-contato/section-co
     NavComponent,
     ContatoComponent,
     SectionContatoComponent,
+    ContactInfoComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
