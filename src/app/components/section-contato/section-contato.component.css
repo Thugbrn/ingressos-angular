@@ -8,19 +8,6 @@
   background-size: cover;
 }
 
-.contact,
-.content,
-.container,
-.contactInfo,
-.box,
-.contactForm form,
-.contactForm h2,
-.inputBox,
-.inputBox span,
-app-contact-info{
-  background-color: initial;
-}
-
 .contact .content {
   max-width: 800px;
   text-align: center;
