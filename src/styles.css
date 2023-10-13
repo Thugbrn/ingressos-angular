@@ -3,8 +3,11 @@
 * {
     margin: 0px;
     padding: 0;
-    background-color: black;
     list-style: none;
     text-decoration: none;
     font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body{
+  background-color: black;
 }

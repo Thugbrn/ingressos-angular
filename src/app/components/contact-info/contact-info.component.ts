@@ -31,11 +31,6 @@ export class ContactInfoComponent {
         titulo: "Email",
         texto: "thugbrn@gmail.com"
       },
-      {
-        nomeIcone: "email",
-        titulo: "Teste",
-        texto: "teste@teste"
-      },
     ];
   }
 }
