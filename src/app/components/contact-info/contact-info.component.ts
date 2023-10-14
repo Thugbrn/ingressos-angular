@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { contatoInfos } from 'src/app/contato-infos';
 import { CommonModule } from '@angular/common';
 
 
@@ -12,14 +11,14 @@ import { CommonModule } from '@angular/common';
 })
 
 export class ContactInfoComponent {
-  contatoInfos: contatoInfos[];
+  contatoInfos
 
   constructor() {
     this.contatoInfos = [
       {
         nomeIcone: "place",
         titulo: "Endereço",
-        texto: "Rua: Bento dos Reis, 125 <br>Jardim Bonifacio, São Paulo - SP, <br>08253-600"
+        texto: "Rua: Bento dos Reis, 125 Jardim Bonifacio, São Paulo - SP, 08253-600"
       },
       {
         nomeIcone: "phone",
