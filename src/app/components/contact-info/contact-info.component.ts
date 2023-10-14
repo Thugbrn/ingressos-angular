@@ -11,10 +11,10 @@ import { CommonModule } from '@angular/common';
 })
 
 export class ContactInfoComponent {
-  contatoInfos
+  contactInfos
 
   constructor() {
-    this.contatoInfos = [
+    this.contactInfos = [
       {
         nomeIcone: "place",
         titulo: "Endereço",
