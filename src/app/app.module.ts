@@ -13,6 +13,8 @@ import { SectionContatoComponent } from './components/section-contato/section-co
 import { ContactInfoComponent } from './components/contact-info/contact-info.component';
 import { FotosComponent } from './pages/fotos/fotos.component';
 import { MainFotosComponent } from './components/main-fotos/main-fotos.component';
+import { SectionComentariosComponent } from './components/section-comentarios/section-comentarios.component';
+import { ComentariosComponent } from './pages/comentarios/comentarios.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { MainFotosComponent } from './components/main-fotos/main-fotos.component
     SectionContatoComponent,
     ContactInfoComponent,
     FotosComponent,
-    MainFotosComponent
+    MainFotosComponent,
+    SectionComentariosComponent,
+    ComentariosComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
