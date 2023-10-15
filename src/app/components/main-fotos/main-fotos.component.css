@@ -9,6 +9,19 @@
   background-size: initial;
 }
 
+.text {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-family: 'kdam Thmor Pro', sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  color: #d21617;
+}
+
 a {
   text-decoration: none;
 }
