@@ -11,6 +11,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { SectionContatoComponent } from './components/section-contato/section-contato.component';
 import { ContactInfoComponent } from './components/contact-info/contact-info.component';
+import { FotosComponent } from './pages/fotos/fotos.component';
+import { MainFotosComponent } from './components/main-fotos/main-fotos.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { ContactInfoComponent } from './components/contact-info/contact-info.com
     ContatoComponent,
     SectionContatoComponent,
     ContactInfoComponent,
+    FotosComponent,
+    MainFotosComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

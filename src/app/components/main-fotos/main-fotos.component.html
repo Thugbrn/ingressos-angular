@@ -1,0 +1,10 @@
+<main id="fotos">
+  <div class="text">
+      <h2>Galeria</h2>
+  </div>
+  <ul class="gallery-container">
+    <li *ngFor="let foto of fotos" class="gallery-items">
+      <img [src]="imgPath + foto.img" [alt]="foto">
+    </li>
+  </ul>
+</main>
