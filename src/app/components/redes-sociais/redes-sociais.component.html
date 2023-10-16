@@ -1,0 +1,8 @@
+<div class="navbar">
+  <div class="box" *ngFor="let RedeSocial of RedesSociais">
+    <div [ngClass]="'icon ' + RedeSocial.classe">
+      <ion-icon [name]="RedeSocial.nomeIcone"></ion-icon>
+    </div>
+    <p>{{ RedeSocial.texto }}</p>                                       
+  </div>
+</div>
